@@ -13,7 +13,7 @@
 #define MEDIA 4
 #define NUM 5
 #define SYM 6
-#define FN 7
+##define FN 7
 #define android 9
 
 // Behavior configuration
@@ -121,10 +121,10 @@
                 //                   |  0  |  .  |  SPC  | # |     | HELD  |       |
 
                 bindings = <
-                    &kp CARET    &kp N7    &kp N8    &kp N9    &kp ASTRK    &kp BSPC         &F7       &F8          &F9          &F10        &F11        &F12
+                    &kp CARET    &kp N7    &kp N8    &kp N9    &kp ASTRK    &kp BSPC         &kp F7    &kp F8       &kp F9       &kp F10     &kp F11     &kp F12
                     &kp MINUS    &kp N4    &kp N5    &kp N6    &kp EQUAL    &kp DEL          &trans    &kp LSHFT    &kp LCTRL    &kp LALT    &kp LGUI    &trans 
-                    &kp PLUS     &kp N1    &kp N2    &kp N3    &kp BSLH     &trans           &F1       &F2          &F3          &F4         &F5         &F6
-                                                     &kp N0    &kp DOT      &kp SPACE        &trans    &trans       &trans
+                    &kp PLUS     &kp N1    &kp N2    &kp N3    &kp BSLH     &trans           &kp F1    &kp F2       &kp F3       &kp F4      &kp F5      &kp F6
+                                                     &kp N0    &kp DOT      &kp SPACE        &trans    &trans       
             >;
         };
         symbols {
@@ -138,7 +138,7 @@
                     &kp LBRC     &kp RBRC     &kp LBKT    &kp RBKT    &kp LPAR     &kp RPAR         &trans    &trans       &trans       &trans      &trans      &trans
                     &kp TILDE    &kp DQT      &kp HASH    &kp DLLR    &kp PRCNT    &kp CARET        &trans    &kp LSHFT    &kp LCTRL    &kp LALT    &kp LGUI    &trans
                     &kp ASTRK    &kp UNDER    &kp PIPE    &kp AT      &kp LT       &kp GT           &trans    &trans       &trans       &kp RALT    &trans      &trans
-                                                          &kp EXCL    &kp DOT      &kp QMARK        &trans    &trans       &trans
+                                                          &kp EXCL    &kp DOT      &kp QMARK        &trans    &trans
             >;
         };
 //        function {
@@ -166,7 +166,7 @@
                     &trans       &kp PG_DN    &kp UP      &kp PG_UP    &kp C_VOL_UP     &kp C_VOL_DN         &trans    &trans    &trans    &trans    &trans    &to QWERTY
                     &trans      &kp LEFT     &kp DOWN    &kp RIGHT    &kp K_VOL_UP     &kp K_VOL_DN         &trans    &trans    &trans    &trans    &trans    &to COLEMAK
                     &kp K_APP    &trans       &trans      &trans       &trans    &trans        &trans    &trans    &trans    &trans    &trans    &to GAMING_QWERTY
-                                                            &trans         &trans    &trans        &trans    &trans    &trans
+                                                            &trans         &trans    &trans        &trans    &trans
             >;
         };  
 		android {
@@ -174,7 +174,7 @@
                     &trans    &trans      &kp UP      &trans         &trans          &trans              &trans    &trans    &trans    &trans    &trans    &trans
                     &trans    &kp LEFT    &kp DOWN    &kp RIGHT      &kp K_VOL_UP    &kp K_VOL_DN        &trans    &trans    &trans    &trans    &trans    &trans
                     &trans    &kp HOME    &trans      &trans         &kp END         &kp K_APP           &trans    &trans    &trans    &trans    &trans    &trans
-                                                      &kp K_STOP2    &kp K_PP        &kp K_MUTE          &trans    &trans    &trans
+                                                      &kp K_STOP2    &kp K_PP        &kp K_MUTE          &trans    &trans
             >;
         };
     };
