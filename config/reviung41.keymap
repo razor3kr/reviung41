@@ -8,13 +8,13 @@
 #define COLEMAK 1
 #define QWERTY 0
 #define GAMING_QWERTY 2
-#define LAYERS 8
+#define LAYERS 7
 #define NAV 3
 #define MEDIA 4
 #define NUM 5
 #define SYM 6
-##define FN 7
-#define android 9
+//##define FN 7
+#define android 8
 
 // Behavior configuration
 &mt {
